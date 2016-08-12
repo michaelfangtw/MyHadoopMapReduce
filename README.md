@@ -4,12 +4,12 @@ This is My HadoopMapReduce Sample,I made a hadoop job sample of Math.Sqrt
 
 ## Code Example
 <pre>
-
-
 #mkdir
+[c#]
 hadoop fs -mkdir hdfs://localhost:9000/Input
 hadoop fs -mkdir hdfs://localhost:9000/Input/sqrt
 hadoop fs -mkdir hdfs://localhost:9000/Iutput
+[/c#]
 
 #list file via cmd
 hadoop fs -ls hdfs://localhost:9000/Input/sqrt
