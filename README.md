@@ -1,6 +1,5 @@
-## MyHadoopMapReduce
-
-This is My HadoopMapReduce Sample,I made a hadoop job sample of Math.Sqrt
+## synopsis
+This is a HadoopMapReduce sample which includes hadoop job of Math.Sqrt
 
 ## Code Example
 <pre>
