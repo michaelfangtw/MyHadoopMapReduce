@@ -1,4 +1,4 @@
-## synopsis
+## Synopsis
 This is a HadoopMapReduce sample which includes hadoop job of Math.Sqrt
 
 ## Code Example
