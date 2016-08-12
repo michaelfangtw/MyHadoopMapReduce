@@ -1,5 +1,10 @@
-#MyHadoopMapReduce
-#This is My HadoopMapReduce Sample,I made a hadoop job sample of Math.Sqrt
+## MyHadoopMapReduce
+
+This is My HadoopMapReduce Sample,I made a hadoop job sample of Math.Sqrt
+
+## Code Example
+<pre>
+
 
 #mkdir
 hadoop fs -mkdir hdfs://localhost:9000/Input
@@ -29,12 +34,13 @@ hadoop fs -ls hdfs://localhost:9000/Input/sqrt
 81
 
 ##output result
+[dos]
 hadoop fs -ls hdfs://localhost:9000/Output/sqrt
 Found 3 items
 -rw-r--r--   1 fij supergroup          0 2016-08-12 23:57 hdfs://localhost:9000/Output/sqrt/_SUCCESS
 -rw-r--r--   1 fij supergroup         48 2016-08-12 23:57 hdfs://localhost:9000/Output/sqrt/part-00000
 -rw-r--r--   1 fij supergroup         10 2016-08-12 23:57 hdfs://localhost:9000/Output/sqrt/part-00001
-
+[/dos]
 #content of part-00000
 9	3
 45	6.70820393249937
@@ -44,4 +50,31 @@ Found 3 items
 #content of part-00001
 49	7
 81	9
+</pre>
+
+
+
+## Motivation
+To Test Hadoop Distributed File System (HDFS)
+
+## Installation
+install Visual Studio 2015
+install hadoop on windows
+https://www.iwwenbo.com/hadoop-installation-on-windows-without-cygwin/
+
+## API Reference
+install Nuget Package: MapReduce
+PM>Install-Package Microsoft.Hadoop.MapReduce
+
+
+## Tests
+
+
+## Contributors
+
+MichaelFang 
+
+## License
+MIT 
+<hr>
 
