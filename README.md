@@ -56,14 +56,14 @@ Found 3 items
 To Test Hadoop Distributed File System (HDFS)
 
 ## Installation
-install Visual Studio 2015
-install hadoop on windows
-https://www.iwwenbo.com/hadoop-installation-on-windows-without-cygwin/
+1.install hadoop on windows
+   https://www.iwwenbo.com/hadoop-installation-on-windows-without-cygwin/
+2.install Visual Studio 2015
+3.install Nuget Package: MapReduce
+  PM>Install-Package Microsoft.Hadoop.MapReduce
 
-## API Reference
-install Nuget Package: MapReduce
-PM>Install-Package Microsoft.Hadoop.MapReduce
-
+## Reference:Intro to Hadoop MapReduce with C#
+https://www.youtube.com/watch?v=uyi41nrhlhw
 
 ## Tests
 
