@@ -1,12 +1,12 @@
-##MyHadoopMapReduce
-##This is My HadoopMapReduce Sample,I made a hadoop job sample of Math.Sqrt
+#MyHadoopMapReduce
+#This is My HadoopMapReduce Sample,I made a hadoop job sample of Math.Sqrt
 
-##mkdir
+#mkdir
 hadoop fs -mkdir hdfs://localhost:9000/Input
 hadoop fs -mkdir hdfs://localhost:9000/Input/sqrt
 hadoop fs -mkdir hdfs://localhost:9000/Iutput
 
-##list file via cmd
+#list file via cmd
 hadoop fs -ls hdfs://localhost:9000/Input/sqrt
 hadoop fs -ls hdfs://localhost:9000/Output/sqrt
 
