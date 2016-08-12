@@ -1,4 +1,4 @@
-###MyHadoopMapReduce
+##MyHadoopMapReduce
 ##This is My HadoopMapReduce Sample,I made a hadoop job sample of Math.Sqrt
 
 ##mkdir
