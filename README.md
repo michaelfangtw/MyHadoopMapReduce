@@ -1,6 +1,6 @@
-# MyHadoopMapReduce
-#This is My HadoopMapReduce Sample
-#I make a hadoop job sample of Math.Sqrt
+#MyHadoopMapReduce
+##This is My HadoopMapReduce Sample
+##I make a hadoop job sample of Math.Sqrt
 
 #mkdir
 hadoop fs -mkdir hdfs://localhost:9000/Input
