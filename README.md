@@ -3,7 +3,6 @@
 This is My HadoopMapReduce Sample,I made a hadoop job sample of Math.Sqrt
 
 ## Code Example
-<pre>
 #mkdir
 [c#]
 hadoop fs -mkdir hdfs://localhost:9000/Input
@@ -50,7 +49,6 @@ Found 3 items
 #content of part-00001
 49	7
 81	9
-</pre>
 
 
 
