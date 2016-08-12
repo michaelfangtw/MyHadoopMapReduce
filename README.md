@@ -32,13 +32,12 @@ hadoop fs -ls hdfs://localhost:9000/Input/sqrt
 81
 
 ##output result
-[dos]
 hadoop fs -ls hdfs://localhost:9000/Output/sqrt
 Found 3 items
 -rw-r--r--   1 fij supergroup          0 2016-08-12 23:57 hdfs://localhost:9000/Output/sqrt/_SUCCESS
 -rw-r--r--   1 fij supergroup         48 2016-08-12 23:57 hdfs://localhost:9000/Output/sqrt/part-00000
 -rw-r--r--   1 fij supergroup         10 2016-08-12 23:57 hdfs://localhost:9000/Output/sqrt/part-00001
-[/dos]
+
 #content of part-00000
 9	3
 45	6.70820393249937
